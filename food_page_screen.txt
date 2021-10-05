@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/scareens/food/components/food_page_body.dart';
+
+class Foodpage extends StatelessWidget {
+  static String routeName = "/foodpage";
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Food Page'),
+      ),
+      body:Body(),
+    );
+  }
+}

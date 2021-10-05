@@ -1,0 +1,271 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/components/no_account_text.dart';
+import 'package:flutter_app/constants.dart';
+import 'package:flutter_app/scareens/forgot_password/components/forgot_password_form.dart';
+import 'package:flutter_app/size_cinfig.dart';
+import 'package:flutter_app/scareens/food/food_page_screen.dart';
+import 'package:flutter_app/scareens/food/components/food.page.dart';
+import 'package:getwidget/getwidget.dart';
+
+class Body extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: <Widget>[
+          GFCard(
+            boxFit: BoxFit.cover,
+            titlePosition: GFPosition.start,
+            image: Image.asset(
+              'assets/Food/北部/北部food1.jpg',
+              height: MediaQuery.of(context).size.height * 0.2,
+              width: MediaQuery.of(context).size.width,
+              fit: BoxFit.cover,
+            ),
+            showImage: true,
+
+            content: Text("莞固和食 "),
+            buttonBar: GFButtonBar(
+              children: <Widget>[
+                GFButton(
+                  onPressed: () {},
+                  text: '喜歡',
+                ),
+                GFButton(
+                  onPressed: () {},
+                  text: '不喜歡',
+                ),
+              ],
+            ),
+          ),
+          GFCard(
+            boxFit: BoxFit.cover,
+            titlePosition: GFPosition.start,
+            image: Image.asset(
+              'assets/Food/北部/北部food2.jpg',
+              height: MediaQuery.of(context).size.height * 0.2,
+              width: MediaQuery.of(context).size.width,
+              fit: BoxFit.cover,
+            ),
+            showImage: true,
+
+            content: Text("魚紅苑餐廳"),
+            buttonBar: GFButtonBar(
+              children: <Widget>[
+                GFButton(
+                  onPressed: () {},
+                  text: '喜歡',
+                ),
+                GFButton(
+                  onPressed: () {},
+                  text: '不喜歡',
+                ),
+              ],
+            ),
+          ),
+          GFCard(
+            boxFit: BoxFit.cover,
+            titlePosition: GFPosition.start,
+            image: Image.asset(
+              'assets/Food/北部/北部food3.jpg',
+              height: MediaQuery.of(context).size.height * 0.2,
+              width: MediaQuery.of(context).size.width,
+              fit: BoxFit.cover,
+            ),
+            showImage: true,
+
+            content: Text("Coffee Boy與你"),
+            buttonBar: GFButtonBar(
+              children: <Widget>[
+                GFButton(
+                  onPressed: () {},
+                  text: '喜歡',
+                ),
+                GFButton(
+                  onPressed: () {},
+                  text: '不喜歡',
+                ),
+              ],
+            ),
+          ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/北部/北部food4.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("米津號冰菓室"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/北部/北部food5.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("湖安川菜樓"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/北部/北部food6.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("柏克菲餐廳"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/北部/北部food7.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("波波海鮮市集Seafood&Meat"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/北部/北部food8.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("青石代燒肉"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/北部/北部food9.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("熊與喵咖啡"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/Food/北部/北部food10.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("together cafe"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {},
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        )
+
+        ],
+      );
+
+  }
+
+}
